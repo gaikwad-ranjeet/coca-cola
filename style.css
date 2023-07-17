@@ -1,0 +1,67 @@
+ body{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(74, 78, 78); */
+    /* align-items: center; */
+} 
+
+#rec{
+    height: 250px;
+    width: 300px;
+    /* background-color: red; */
+    background-image:url('bg3.jpg');
+    border-radius: 10px;
+    border-style:solid;
+    border-width: 2px;
+    position: absolute;
+    /* text-align: center; */
+    top: 30%;
+    left: 40%;
+    /* margin:300px;
+    margin-left:750px; */   
+}
+.logo{
+    height: 100px;
+    margin: 1px;
+    margin-top: 0px;
+
+}
+.msg{
+    font-style:normal;
+    font-size:medium;
+    text-align: left;
+    display: flex;
+    margin-left: 25px;
+    margin-top: 0px;
+}
+.div{
+    margin-left: 200px;
+    display: flex;
+}
+#img{
+    height: 70px;
+    width: 35px;
+    
+    /* align-items: right; */
+    
+}
+
+button{
+    height: 20px;;
+    width: 100px;
+    font-size: small;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:inherit;
+    background-color:white;
+    border-radius: 50px;
+    margin-left: 20px;
+    
+}
+button:hover{
+    background-color: black;
+    color: whitesmoke;
+    width:120px;
+    height: 28px;
+    
+    
+}
